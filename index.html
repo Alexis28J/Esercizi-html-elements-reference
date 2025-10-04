@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esercizi di html (Mozilla Developer)</title>
+    <!-- &lt; (<), &gt; (>), &amp; (&), &quot; ("), &#39; (') -->
 </head>
 
 <body>
@@ -13,8 +14,10 @@
 
     <h2>Main Root Element</h2>
 
-    <p><strong>HTML</strong><br> Rappresenta la radice (elemento di primo livello) di un documento HTML, quindi viene
-        anche chiamato elemento radice. Tutti gli altri elementi devono essere discendenti di questo elemento.</P>
+    <p><strong>&lt;html&gt; </strong> <br> Rappresenta la radice (elemento di primo livello) di un documento HTML,
+        quindi viene
+        anche chiamato elemento radice. Tutti gli altri elementi devono essere discendenti di questo elemento.</p>
+    <img src="./assests/Tags/html.jpg" alt="html tag" width="500" height="300">
     <br>
 
     <h2>Document Metadata</h2>
@@ -24,32 +27,35 @@
     <br>
     <ul>
 
-        <li><strong>BASE</strong>
+        <li><strong>&lt;base&gt;</strong>
             <p>Specifica l'URL di base da utilizzare per tutti gli URL relativi in ​​un documento, permettendo così di
                 ridurre la lunghezza dei collegamenti a risorse come immagini o link ad altre pagine. Può esserci un
                 solo elemento di questo tipo in un documento.
-                Si posiziona all'interno della sezione
-
-                <head> di una pagina HTML e viene utilizzato principalmente quando si hanno molte risorse con URL lunghi
-                    o complessi all'interno di un sito web.
+                Si posiziona all'interno della sezione &lt;head&gt; di una pagina HTML e viene utilizzato principalmente
+                quando si hanno molte risorse con URL lunghi
+                o complessi all'interno di un sito web.
             </p>
+            <img src="./assests/Tags/base.jpg" alt="base tag" width="500" height="200">
         </li>
 
-        <li><strong>HEAD</strong>
+        <li><strong>&lt;head&gt;</strong>
             <p>Contiene informazioni leggibili dalla macchina (metadati) sul documento, come il suo "title", "scripts" e
                 "style sheets"</p>
+            <img src="./assests/Tags/head.jpg" alt="head tag" width="500" height="200">
         </li>
 
-        <li><strong>LINK</strong>
+        <li><strong>&lt;link&gt;</strong>
             <p>Specifica le relazioni tra il documento corrente e una risorsa esterna. Questo elemento è comunemente
                 utilizzato per collegarsi a CSS, ma viene utilizzato anche per definire le icone del sito (sia icone in
                 stile "favicon" che icone per la schermata iniziale e le app sui dispositivi mobili), tra le altre cose.
             </p>
+            <img src="./assests/Tags/link.jpg" alt="link tag" width="500" height="200">
         </li>
 
-        <li><strong>META</strong>
+        <li><strong>&lt;meta&gt;</strong>
             <p>Rappresenta i metadati che non possono essere rappresentati da altri elementi HTML correlati ai metadati,
-                come "base", "link", "script", "style" o "title". <br><i>I metadati sono informazioni che descrivono il
+                come &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; o &lt;title&gt;. <br><i>I metadati sono
+                    informazioni che descrivono il
                     contenuto di un documento, come il suo autore, la descrizione, le parole chiave e altre informazioni
                     utili per i motori di ricerca e i browser web.</i>
                 <br>I meta tag sono elementi HTML invisibili all'utente che forniscono metadati (dati sui dati) su una
@@ -61,9 +67,11 @@
                 migliorano l'esperienza utente, in particolare la visibilità e il comportamento sui dispositivi
                 mobili.</b>
             </p>
+
+            <img src="./assests/Tags/meta.jpg" alt="meta tag" width="500" height="300">
         </li>
 
-        <li><strong>STYLE</strong>
+        <li><strong>&lt;style&gt;</strong>
             <p>Contiene informazioni di stile per un documento o parte di un documento. Contiene CSS, che viene
                 applicato al contenuto del documento che contiene questo elemento.
                 <br>Il termine "tag style" si riferisce a due concetti principali in HTML e CSS: il tag "style" per
@@ -71,24 +79,28 @@
                 direttamente a un singolo elemento HTML.
                 <br>Il tag "style" va inserito nella sezione "head" e serve per definire stili globali o specifici per
                 la pagina, mentre l'attributo "style" viene usato per lo stile "inline" su elementi singoli.
+                <br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/style" target="_blank" rel="noopener noreferrer"><i>Guarda l'esempio</i></a>
         </li>
 
-        <li><strong>TITLE</strong>
+        <li><strong>&lt;title&gt;</strong>
             <p>Definisce il titolo del documento che viene visualizzato nella barra del titolo del browser o nella
                 scheda di una pagina. Contiene solo testo; anche gli eventuali tag HTML all'interno dell'elemento
                 vengono trattati come testo normale.</p>
+                <img src="./assests/Tags/title.jpg" alt="title tag" width="500" height="100">
         </li>
     </ul>
     <br>
     <h2>Sectioning Root</h2>
 
-    <p><strong>BODY</strong><br> Rappresenta il contenuto di un documento HTML. In un documento può essere
+    <p><strong>&lt;body&gt;</strong><br> Rappresenta il contenuto di un documento HTML. In un documento può essere
         presente un solo elemento di questo.</p>
 
     <br>
     <br>
     <nav>
         <a href="./pagina-2.html" target="_blank" rel="noopener noreferrer">PAGINA 2</a>
+        <a href="./pagina-3.html" target="_blank" rel="noopener noreferrer">PAGINA 3</a>
+        <a href="./tab.html" target="_blank" rel="noopener noreferrer">TAB</a>
     </nav>
 
 </body>

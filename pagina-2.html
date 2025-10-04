@@ -18,72 +18,177 @@
     <ul>
 
         <li>
-            <p><strong>ADDRESS</strong><br>Indica che il codice HTML allegato fornisce informazioni di contatto per una
+            <p><strong>&lt;address&gt;</strong><br>Indica che il codice HTML allegato fornisce informazioni di contatto per una
                 o più persone, oppure per un'organizzazione.</p>
         </li>
 
 
         <li>
-            <p><strong>ARTICLE</strong><br>Rappresenta una composizione autonoma in un documento, una pagina,
+            <p><strong>&lt;article&gt;</strong><br>Rappresenta una composizione autonoma in un documento, una pagina,
                 un'applicazione o un sito, destinata a essere distribuita o riutilizzata in modo indipendente (ad
                 esempio, tramite syndication). Esempi includono un post su un forum, un articolo di una rivista o di un
                 giornale, un post di un blog, una scheda prodotto, un commento inviato da un utente, un widget o gadget
                 interattivo o qualsiasi altro elemento di contenuto indipendente.</p>
         </li>
         <li>
-            <p><strong>ASIDE</strong><br>Rappresenta una parte di un documento il cui contenuto è solo indirettamente
+            <p><strong>&lt;aside&gt;</strong><br>Rappresenta una parte di un documento il cui contenuto è solo indirettamente
                 correlato al contenuto principale del documento. Le didascalie sono spesso presentate come barre
                 laterali o riquadri di richiamo.</p>
         </li>
 
         <li>
-            <p><strong>FOOTER</strong><br>Rappresenta un piè di pagina per il più prossimo antenato del "sectioning
+            <p><strong>&lt;footer&gt;</strong><br>Rappresenta un piè di pagina per il più prossimo antenato del "sectioning
                 content" (contenuto di suddivisione) o dell'elemento del "sectioning root" (radice di suddivisione). Un
-                "footer" contiene in genere informazioni sull'autore della sezione, dati sul copyright o link a
+                &lt;footer&gt; contiene in genere informazioni sull'autore della sezione, dati sul copyright o link a
                 documenti correlati.</p>
         </li>
         <li>
-            <p><strong>HEADER</strong><br>Rappresenta il contenuto introduttivo, in genere un gruppo di strumenti
+            <p><strong>&lt;header&gt;</strong><br>Rappresenta il contenuto introduttivo, in genere un gruppo di strumenti
                 introduttivi o di navigazione. Può contenere alcuni elementi di intestazione, ma anche un logo, un
                 modulo di ricerca, il nome dell'autore e altri elementi.</p>
         </li>
         <li>
-            <p><strong>H1, H2, H3, H4, H5, H6</strong><br>Rappresenta sei livelli di intestazioni di sezione. "h1" è il
-                livello di sezione più alto e "h6" è il più basso.</p>
+            <p><strong>&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</strong><br>Rappresenta sei livelli di intestazioni di sezione. &lt;h1&gt; è il
+                livello di sezione più alto e &lt;h6&gt; è il più basso.</p>
         </li>
 
         <li>
-            <p><strong>HGROUP</strong><br>Rappresenta un titolo raggruppato con qualsiasi contenuto secondario, come
+            <p><strong>&lt;hgroup&gt;</strong><br>Rappresenta un titolo raggruppato con qualsiasi contenuto secondario, come
                 sottotitoli, un titolo alternativo o uno slogan.</p>
         </li>
         <li>
-            <p><strong>MAIN</strong><br>Rappresenta il contenuto principale del corpo di un documento. L'area del
+            <p><strong>&lt;main&gt;</strong><br>Rappresenta il contenuto principale del corpo di un documento. L'area del
                 contenuto principale è costituita da contenuti direttamente correlati o che approfondiscono l'argomento
                 centrale di un documento o la funzionalità centrale di un'applicazione.</p>
         </li>
 
         <li>
-            <p><strong>NAV</strong><br>Rappresenta una sezione di una pagina il cui scopo è fornire collegamenti di
+            <p><strong>&lt;nav&gt;</strong><br>Rappresenta una sezione di una pagina il cui scopo è fornire collegamenti di
                 navigazione, sia all'interno del documento corrente che ad altri documenti. Esempi comuni di sezioni di
                 navigazione sono menu, sommari e indici.</p>
         </li>
         <li>
-            <p><strong>SECTION</strong><br>Rappresenta una sezione generica e autonoma di un documento, che non ha un
+            <p><strong>&lt;section&gt;</strong><br>Rappresenta una sezione generica e autonoma di un documento, che non ha un
                 elemento semantico più specifico per rappresentarla. Le sezioni dovrebbero sempre avere un'intestazione,
                 con pochissime eccezioni.</p>
         </li>
         <li>
-            <p><strong>SEARCH</strong><br>Rappresenta una parte che contiene un set di controlli del modulo o altri
+            <p><strong>&lt;search&gt;</strong><br>Rappresenta una parte che contiene un set di controlli del modulo o altri
                 contenuti correlati all'esecuzione di un'operazione di ricerca o di filtraggio.</p>
         </li>
+    </ul>
+    <br>
+    <br>
+    <h2>Text Content</h2>
+    <p>Utilizza elementi di testo HTML per organizzare blocchi o sezioni di contenuto posizionati tra i tag di
+        apertura &lt;body&gt; e di chiusura &lt;/body&gt;. Importanti per l'accessibilità e la SEO, questi elementi identificano
+        lo scopo o la struttura del contenuto.</p>
+    <br>
+    <ul>
+        <li>
+            <p><strong>&lt;blockquote&gt;</strong><br>Indica che il testo allegato è una citazione estesa. Solitamente,
+                questa viene visualizzata tramite rientro. Un URL per la fonte della citazione può essere
+                specificato utilizzando l'attributo cite, mentre una rappresentazione testuale della fonte può
+                essere specificata utilizzando l'elemento &lt;cite&gt;.</p>
+        </li>
+        <li>
+            <p><strong>&lt;dd&gt;</strong><br>Fornisce la descrizione, la definizione o il valore del termine precedente &lt;dt&gt;
+                in un elenco di descrizioni &lt;dl&gt;.
+                <br>Il tag &lt;dd&gt; in HTML serve a definire la descrizione di un termine all'interno di una lista di
+                definizioni, che
+                è a sua volta creata con il tag &lt;dl&gt;. È utilizzato insieme al tag &lt;dt&gt;, che definisce il termine da
+                descrivere, per creare coppie "termine-descrizione" all'interno di una lista strutturata come un
+                dizionario o un glossario
+            </p>
+        </li>
+        <li>
+            <p><strong>&lt;div&gt;</strong><br>Contenitore generico per contenuti fluidi. Non ha alcun effetto sul contenuto o
+                sul layout finché non gli viene applicato uno stile tramite CSS (ad esempio, applicandovi direttamente
+                uno stile o applicando un modello di layout come flexbox al suo elemento padre).</p>
+        </li>
+        <li>
+            <p><strong>&lt;dl&gt;</strong><br>Rappresenta un elenco di descrizioni. L'elemento racchiude un elenco di gruppi di
+                termini (specificati tramite l'elemento &lt;dt&gt;) e descrizioni (fornite dagli elementi &lt;dd&gt;). Usi comuni
+                per questo elemento sono l'implementazione di un glossario o la visualizzazione di metadati (un elenco
+                di coppie chiave-valore).</p>
+        </li>
 
+        <li>
+            <p><strong>&lt;dt&gt;</strong><br>Specifica un termine in una descrizione o in un elenco di definizioni e, come
+                tale, deve essere utilizzato all'interno di un elemento &lt;dl&gt;. Di solito è seguito da un elemento &lt;dd&gt;;
+                tuttavia, più elementi &lt;dt&gt; in una riga indicano più termini, tutti definiti dall'elemento &lt;dd&gt;
+                immediatamente successivo.</p>
+        </li>
+        <li>
+            <p>
+                <strong>&lt;figcaption&gt;</strong><br>Rappresenta una didascalia o una legenda che descrive il resto del
+                contenuto del suo elemento padre &lt;figure&gt;.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>&lt;figure&gt;</strong><br>Rappresenta un contenuto autonomo, potenzialmente con una didascalia
+                facoltativa, specificata tramite l'elemento &lt;figcaption&gt;. La figura, la sua didascalia e il suo
+                contenuto vengono referenziati come un'unica unità.
+            </p>
+        </li>
 
+        <li>
+            <p>
+                <strong>&lt;hr&gt;</strong><br>Rappresenta una rottura tematica tra elementi a livello di paragrafo: ad esempio,
+                un cambio di scena in una storia o uno spostamento di argomento all'interno di una sezione.
+            </p>
+        </li>
+
+        <li>
+            <p><strong>&lt;li&gt;</strong><br>Rappresenta un elemento in un elenco. Deve essere contenuto in un elemento padre:
+                un elenco ordinato &lt;ol&gt;, un elenco non ordinato &lt;ul&gt; o un menu &lt;menu&gt;. Nei menu e negli elenchi
+                non ordinati, gli elementi dell'elenco vengono solitamente visualizzati tramite punti elenco. Negli
+                elenchi ordinati, vengono solitamente visualizzati con un contatore crescente a sinistra, ad esempio un
+                numero o una lettera.
+            </p>
+        </li>
+
+        <li>
+            <p><strong>&lt;menu&gt;</strong><br>Un'alternativa semantica a &lt;ul&gt;, ma trattata dai browser (ed esposta tramite
+                l'albero di accessibilità) come se non fosse diversa da &lt;ul&gt;. Rappresenta un elenco non ordinato di
+                elementi (rappresentati da elementi &lt;li&gt;).</p>
+        </li>
+
+        <li>
+            <p><strong>&lt;ol&gt;</strong><br>Rappresenta un elenco ordinato di elementi, solitamente rappresentato come un
+                elenco numerato.</p>
+        </li>
+        <li>
+            <p>
+                <strong>&lt;p&gt;</strong><br>Rappresenta un paragrafo. I paragrafi sono solitamente rappresentati nei media
+                visivi come blocchi di testo separati dai blocchi adiacenti da righe vuote e/o rientro della prima riga,
+                ma i paragrafi HTML possono essere qualsiasi raggruppamento strutturale di contenuti correlati, come
+                immagini o campi di un modulo.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>&lt;pre&gt;</strong><br>Rappresenta il testo preformattato che deve essere visualizzato esattamente come
+                scritto nel file HTML. Il testo viene in genere visualizzato utilizzando un font non proporzionale o
+                monospaced (a spaziatura fissa). Gli spazi vuoti all'interno di questo elemento vengono visualizzati
+                esattamente come sono scritti.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>&lt;ul&gt;</strong><br>Rappresenta un elenco non ordinato di elementi, in genere visualizzato come
+                elenco puntato.
+            </p>
+        </li>
     </ul>
 
     <br>
     <br>
     <nav>
         <a href="./index.html" target="_blank" rel="noopener noreferrer">PAGINA 1</a>
+        <a href="./pagina-3.html" target="_blank" rel="noopener noreferrer">PAGINA 3</a>
+        <a href="./tab.html" target="_blank" rel="noopener noreferrer">TAB</a>
     </nav>
 
 </body>
